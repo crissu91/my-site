@@ -1,6 +1,6 @@
 body {
     background-color: azure;
-    height: 100vh; 
+    height: 100%; 
     background-image: url('./floating-clouds.jpg');
     background-position: center;
     background-repeat: no-repeat;
@@ -32,9 +32,22 @@ form {
 }
 
 .message {
-    text-align: center;
     color: rgb(81, 79, 79);;
     font-size: 16px;
+    border: 5px;
+}
+
+.box {
+  align-self: center;
+  margin-top: 20px;
+  margin-inline: center;
+}
+.button {
+  align-items: center;
+  text-align: center;
+  padding: 5px;
+  background-color: rgb(217, 247, 217);
+  border-top: 20px;
 }
 
 #nav {
